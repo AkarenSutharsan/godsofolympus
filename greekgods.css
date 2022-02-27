@@ -153,3 +153,12 @@ button:hover{
     border-radius: 8px;
     height: 600px;
  } 
+
+ .validator {
+    float: left;
+    width: 20%;
+    object-fit: contain;
+    margin-top:1.5%;
+    margin-left:5%;
+    justify-content: end;
+}
