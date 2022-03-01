@@ -4,10 +4,9 @@
     box-sizing: border-box;
     margin:0px;
     padding:0;
-    background-color: #24252A;
 }
 
-li, a, button{
+.nav_links, a, button{
     font-family: "IM Fell English SC","Montserrat", Sans-serif;
     font-weight: 500;
     font-size:20px;
@@ -81,7 +80,7 @@ button:hover{
   .dropdown-content {
     display: none;
     position: absolute;
-    background-color: #f1f1f1;
+    background-color: #24252A;
     min-width: 160px;
     box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
     z-index: 1;
@@ -100,39 +99,155 @@ button:hover{
   
   /* Show the dropdown menu on hover */
   .dropdown:hover .dropdown-content {display: block;}
+
+  body{
+    background-image: url("images/olympus2.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+}
   
-  .card {
-    /* Add shadows to create the "card" effect */
-    box-shadow: 0 4px 8px 0 #F8F2ED;
-    transition: 0.3s;
-    width:25%;
-    background-color:#F8F2ED;
-    margin-top: 5%;
-    margin-left: 2%;
-    border-radius: 8px;
- }
-  
-  /* On mouse-over, add a deeper shadow */
-  .card:hover {
-    box-shadow: 0 8px 16px 0 #F8F2ED;
- }
-  
-  /* Add some padding inside the card container */
-  .container {
-    padding: 2px 16px;
-    background-color:#F8F2ED;
-    border-radius:50%;
- }
- .cardtext{
-     background-color:#F8F2ED;
-     font-family: "IM Fell English SC","Montserrat", Sans-serif;
-     text-align:center;
- }
- #name{
-    font-size:20px;
+.sidenav {
+    height: 100%;
+    width: 9%; 
+    position: fixed;
+    z-index: 1;
+    top: 0;
+    left: 0;
+    background-color: rgba(0,0,0,0.5);
+    overflow-x: hidden; 
+    padding-top: 20px; 
+  }
+
+  .table {
     font-weight:bold;
- }
- .cardimg{
+    font-size:24px;
+    margin-top:10%;
+    color:white;
+    font-family: "IM Fell English SC","Montserrat", Sans-serif;
+  }
+
+  .sidenav_links{
+      margin-top:40%;
+      list-style: none;
+
+  }
+
+  .sidenav_links li {
+    display:inline-block;
+    padding: 0px 20px;
+}
+
+.sidenav_links li a {
+    transition: all 0.3s ease 0s;
+}
+
+.sidenav_links li a:hover{
+    color:#F09637;
+}
+
+.list_margin{
+    margin-top:15%;
+}
+
+.bubble {
+    width:300px;
+    padding:20px;
+    text-align:center;
     border-radius: 8px;
- }
- 
+    background: rgba(155, 150, 150, 0.7);
+    margin-left: 50%;      
+    display:center;
+    font-weight: bold;
+    font-size:24px;
+    font-family: "IM Fell English SC","Montserrat", Sans-serif;
+    margin-top:1%;  
+}
+
+.bubble_center{
+    margin-left: auto;
+    margin-right: auto;
+    display:block;
+}
+
+.bubble1 {
+    width:60%;
+    padding:20px;
+    margin:20px;
+    border-radius: 8px;
+    background: rgba(155, 150, 150, 0.5);
+    margin-left: 11%;
+    font-size:17px;
+    font-family: "IM Fell English SC","Montserrat", Sans-serif;
+    line-height: 30px;
+          
+}
+
+h1,h2 {
+    font-weight: bold;
+    margin-left:11%;
+    font-family: "IM Fell English SC","Montserrat", Sans-serif;  
+    margin-top:1%; 
+}
+
+.image {
+    border-radius: 8px;
+    border-width:3px;
+    border-color:black;
+    float:right;
+    border-style:solid;
+    filter:brightness(110%);
+}
+
+.row {
+    display:flex;
+}
+
+.bubble2 {
+    width:40%;
+    padding:20px;
+    margin:20px;
+    border-radius: 8px;
+    background: rgba(155, 150, 150, 0.5);
+    margin-left: 11%;
+    font-size:17px;
+    font-family: "IM Fell English SC","Montserrat", Sans-serif;
+    line-height: 30px;
+    
+}
+
+.image1 {
+    border-radius: 8px;
+    border-width:3px;
+    border-color:black;
+    float:left;
+    border-style:solid;
+    filter:brightness(110%);
+}
+
+.emphasis {
+    color: #c28039;
+}
+
+.bubble3 {
+    width:20%;
+    padding:20px;
+    margin:20px;
+    border-radius: 8px;
+    background: rgba(155, 150, 150, 0.5);
+    margin-left: 11%;
+    font-size:17px;
+    font-family: "IM Fell English SC","Montserrat", Sans-serif;
+    line-height: 30px;
+}
+
+.bubble4 {
+    width:40%;
+    padding:20px;
+    margin:20px;
+    border-radius: 8px;
+    background: rgba(155, 150, 150, 0.5);
+    margin-left: 11%;
+    font-size:17px;
+    font-family: "IM Fell English SC","Montserrat", Sans-serif;
+    line-height: 30px;
+}
