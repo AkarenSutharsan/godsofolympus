@@ -75,7 +75,7 @@ input{
  } 
 
   body{
-    background-image: url("images/olympus.jpg");
+    background-image: url("images/olympus1.jpg");
     background-repeat: no-repeat;
     background-size: cover;
 }
@@ -194,29 +194,29 @@ h1,h2 {
     padding: 2px 16px;
     background-color:#F8F2ED;
     border-radius:8px;
-  }
+}
   
-  .row{
+ row{
     justify-content: left;
     margin-left:11%;
     display: flex;
     flex-direction: row;
     flex-wrap: wrap;
-  }
+}
 
-  .col{
+.col{
     margin: 0.8%;
-  }
+}
 
-  p{
+p{
     font-family: "IM Fell English SC","Montserrat", Sans-serif;
-  }
+}
 
-  .cardlink {
+.cardlink {
       color:black;
-  }
+}
 
-  .cardlink1 {
+.cardlink1 {
     color:black;
     font-size:90%;
 }
