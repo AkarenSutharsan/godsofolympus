@@ -62,44 +62,6 @@ button:hover{
     border:none
  } 
 
-  /* Dropdown Button */
-.dropbtn {
-    color: white;
-    padding: 16px;
-    font-size: 16px;
-    border: none;
- }
-  
-  /* The container <div> - needed to position the dropdown content */
-  .dropdown {
-    position: relative;
-    display: inline-block;
- }
-  
-  /* Dropdown Content (Hidden by Default) */
-  .dropdown-content {
-    display: none;
-    position: absolute;
-    background-color: #24252A;
-    min-width: 160px;
-    box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
-    z-index: 1;
- }
-  
-  /* Links inside the dropdown */
-  .dropdown-content a {
-    color:white;
-    padding: 12px 16px;
-    text-decoration: none;
-    display: block;
- }
-  
-  /* Change color of dropdown links on hover */
-  .dropdown-content a:hover {background-color:#F09637;}
-  
-  /* Show the dropdown menu on hover */
-  .dropdown:hover .dropdown-content {display: block;}
-
   body{
     background-image: url("images/olympus2.jpg");
     background-repeat: no-repeat;
@@ -134,7 +96,7 @@ button:hover{
 
   .sidenav_links li {
     display:inline-block;
-    padding: 0px 20px;
+    padding: 0px 5%;
 }
 
 .sidenav_links li a {
@@ -155,18 +117,12 @@ button:hover{
     text-align:center;
     border-radius: 8px;
     background: rgba(155, 150, 150, 0.7);
-    margin-left: 48%;      
+    margin-left: 46.5%;      
     display:center;
     font-weight: bold;
     font-size:24px;
     font-family: "IM Fell English SC","Montserrat", Sans-serif;
     margin-top:1%;  
-}
-
-.bubble_center{
-    margin-left: auto;
-    margin-right: auto;
-    display:block;
 }
 
 .bubble1 {
@@ -182,7 +138,7 @@ button:hover{
     text-align:center;
 }
 
-h1,h2 {
+h1 {
     font-weight: bold;
     margin-left:11%;
     font-family: "IM Fell English SC","Montserrat", Sans-serif;  
@@ -190,65 +146,10 @@ h1,h2 {
     text-align:center;
 }
 
-.image {
-    border-radius: 8px;
-    border-width:3px;
-    border-color:black;
-    float:right;
-    border-style:solid;
-    filter:brightness(110%);
-}
-
-.row {
-    display:flex;
-}
-
-.bubble2 {
-    width:40%;
-    padding:20px;
-    margin:20px;
-    border-radius: 8px;
-    background: rgba(155, 150, 150, 0.5);
-    margin-left: 11%;
-    font-size:17px;
-    font-family: "IM Fell English SC","Montserrat", Sans-serif;
-    line-height: 30px;
-    
-}
-
-.image1 {
-    border-radius: 8px;
-    border-width:3px;
-    border-color:black;
-    float:left;
-    border-style:solid;
-    filter:brightness(110%);
-}
-
-.emphasis {
-    color: #ac7233;
-}
-
-.bubble3 {
-    width:20%;
-    padding:20px;
-    margin:20px;
-    border-radius: 8px;
-    background: rgba(155, 150, 150, 0.5);
-    margin-left: 11%;
-    font-size:17px;
-    font-family: "IM Fell English SC","Montserrat", Sans-serif;
-    line-height: 30px;
-}
-
-.bubble4 {
-    width:40%;
-    padding:20px;
-    margin:20px;
-    border-radius: 8px;
-    background: rgba(155, 150, 150, 0.5);
-    margin-left: 11%;
-    font-size:17px;
-    font-family: "IM Fell English SC","Montserrat", Sans-serif;
-    line-height: 30px;
+.row{
+    justify-content: left;
+    margin-left:11%;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
 }
