@@ -58,11 +58,21 @@ form:hover{
     background-color:#c28039;
 }
 
+value {
+    background-color: #F09637;
+    font-family: "IM Fell English SC","Montserrat", Sans-serif;
+    font-weight: 500;
+    font-size:20px;
+    color: #edf0f1;
+    text-decoration:none;
+}
+    
+
 .nav_links li .ui-btn-active {
     background: inherit;
     color: #c28039;
     border:none
- } 
+} 
 
  .description {
     margin-left:5%;
