@@ -6,6 +6,7 @@
     padding:0;
 }
 
+/* Top NavBar */
 .nav_links, a, button{
     font-family: "IM Fell English SC","Montserrat", Sans-serif;
     font-weight: 500;
@@ -43,6 +44,7 @@ header{
     color:#F09637;
 }
 
+/* Button */
 button{
     padding: 6px 25px;
     background-color: #F09637;
@@ -67,7 +69,8 @@ button:hover{
     background-repeat: no-repeat;
     background-size: cover;
 }
-  
+
+/* Side NavBar */
 .sidenav {
     height: 100%;
     width: 9%; 
@@ -111,6 +114,7 @@ button:hover{
     margin-top:15%;
 }
 
+/* Text Bubbles */
 .bubble {
     width:300px;
     padding:20px;
@@ -151,28 +155,30 @@ h1,h2 {
     
 }
 
+/* Image Sizing/Shape */
 .img {
     width: 190px;
     height: 190px;
     object-fit: cover;
     border-radius:8px;
-  }
-  
-  .card {
+}
+
+/* Cards */
+.card {
     width: 190px;
     text-align: left;
     box-shadow: 0 4px 8px 0 rgba(0,0,0,0.2);
     transition: 0.3s;
     margin: 8px;
     border-radius:8px;
-  }
+}
 
-  .card:hover {
+.card:hover {
     box-shadow: 0 8px 16px 0 rgba(0,0,0,0.2);
     max-width: 100%;
     height: auto;
     text-overflow: ellipsis;
-  }
+}
   
   .container {
     padding: 2px 16px;
