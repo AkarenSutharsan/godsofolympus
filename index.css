@@ -122,7 +122,6 @@ button:hover{
     border-radius: 8px;
     background: rgba(155, 150, 150, 0.7);
     margin-left: 50%;      
-    display:center;
     font-weight: bold;
     font-size:24px;
     font-family: "IM Fell English SC","Montserrat", Sans-serif;
@@ -163,6 +162,7 @@ h1 {
     float:right;
     border-style:solid;
     filter:brightness(110%);
+    width:25%;
 }
 
 /* Allows the images to be alligned with the text */
@@ -199,4 +199,5 @@ h1 {
     display: flex;
     flex-direction: row;
     flex-wrap: wrap;
+    width:4.5%;
 }
