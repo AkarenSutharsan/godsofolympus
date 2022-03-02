@@ -196,7 +196,7 @@ h1,h2 {
     border-radius:8px;
 }
   
- row{
+.row{
     justify-content: left;
     margin-left:11%;
     display: flex;
