@@ -59,7 +59,7 @@ header{
  } 
 
  /* Button */
-.ui btn{
+button{
     padding: 6px 25px;
     background-color: #F09637;
     border: none;
@@ -68,7 +68,7 @@ header{
     transition: all 0.3s ease 0s;
 }
 
-.ui btn:hover{
+button:hover{
     background-color:#c28039;
 }
 
