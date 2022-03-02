@@ -104,17 +104,21 @@ button:hover{
     border-radius:50%;
  }
 .cardtext{
-     background-color:#F8F2ED;
-     font-family: "IM Fell English SC","Montserrat", Sans-serif;
-     text-align:center;
+    background-color:#F8F2ED;
+    font-family: "IM Fell English SC","Montserrat", Sans-serif;
+    text-align:center;
  }
-#name{
+.name{
     font-size:20px;
     font-weight:bold;
+    background-color:#F8F2ED;
+    font-family: "IM Fell English SC","Montserrat", Sans-serif;
+    text-align:center;
  }
 .cardimg{
     border-radius: 8px;
     height: 500px;
+    width:100%;
  } 
 
  h1 {
@@ -135,6 +139,3 @@ button:hover{
     margin-left:5%;
     justify-content: end;
 }
-
-
-
