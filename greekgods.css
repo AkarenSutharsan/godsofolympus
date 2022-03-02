@@ -58,7 +58,7 @@ form:hover{
     background-color:#c28039;
 }
 
-value {
+input{
     background-color: #F09637;
     font-family: "IM Fell English SC","Montserrat", Sans-serif;
     font-weight: 500;
